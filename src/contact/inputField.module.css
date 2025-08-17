@@ -1,0 +1,8 @@
+.InputField {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  height: 50px;
+  width: 300px;
+  border-bottom: 1px solid black;
+}

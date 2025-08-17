@@ -1,0 +1,33 @@
+.footerContainer {
+  width: 100vw;
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #828080;
+}
+
+.roleContainer {
+  display: flex;
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+
+.role {
+  font-weight: 600;
+  color: #4285f4;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.icons {
+  border: 1px solid red;
+  color: #828080;
+}

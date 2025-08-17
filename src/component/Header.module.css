@@ -1,0 +1,55 @@
+:root {
+  --header-hight: 60px;
+}
+
+/*leftheader+rightheader*/
+.header {
+  /* border: 1px solid rebeccapurple; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  border: 2px solid pink;
+  border-radius: 50%;
+  height: 40px;
+  margin: 10px;
+}
+
+.leftheader {
+  display: flex;
+}
+
+.name {
+  color: #4285f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/*right items in header*/
+
+.rightItemsContainer {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 10px;
+  padding-right: 90px;
+}
+
+.rightItems:hover {
+  cursor: pointer;
+  font-size: 1.3rem;
+  /* border-bottom: 2px solid #4285f4; */
+  color: #4285f4;
+  transition: all 0.5s ease;
+}
+
+.active {
+  color: #00bcd4; /* highlight color */
+  font-weight: bold; /* optional */
+}

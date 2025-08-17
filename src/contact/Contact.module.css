@@ -1,0 +1,22 @@
+.ContactContainer {
+  background-color:white;
+  height: calc(100vh - var(--header-hight));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sloganContainer {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputFieldContainer {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

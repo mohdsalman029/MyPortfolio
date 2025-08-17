@@ -1,0 +1,47 @@
+.container {
+  border: 1px solid black;
+  height: 130px;
+  width: 300px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.heading {
+  font-size: 1.5rem;
+}
+
+.content {
+  font-size: 1.2rem;
+  color: #4285f4;
+}
+
+.SkillPageContainer {
+  width: 100vw;
+  height: calc(100vh - var(--header-hight));
+  display: flex;
+  justify-content: space-around;
+}
+
+.skillContainer {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.imagecontainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+

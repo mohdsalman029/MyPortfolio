@@ -1,0 +1,17 @@
+.button {
+  border-radius: 50px;
+  width: 120px;
+  height: 45px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
