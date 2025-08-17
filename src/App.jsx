@@ -12,7 +12,7 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/MyPortfolio">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Container />} />
