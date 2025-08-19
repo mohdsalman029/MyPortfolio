@@ -5,12 +5,13 @@ import { Slogan } from "./Slogan";
 import { InputField } from "./InputField";
 import { Button } from "./Button";
 import { ContacNumber } from "./ContactNumber";
+import { Footer } from "../footer/Footer";
 
 export const Contact = () => {
   return (
     <>
       <div className={style.ContactContainer}>
-              <ContacNumber />
+        <ContacNumber />
         <div className={style.sloganContainer}>
           <Slogan />
         </div>
@@ -22,11 +23,11 @@ export const Contact = () => {
             <div>
               <Button label="Submit" />
             </div>
-            <div>
-            </div>
+            <div></div>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

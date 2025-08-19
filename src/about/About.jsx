@@ -6,9 +6,9 @@ import { Project } from "../Projects/Project";
 export const About = () => {
   return (
     <>
-      <Skill />
+      {/* <Skill />
       <Education />
-      <Project />
+      <Project /> */}
     </>
   );
 };

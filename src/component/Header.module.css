@@ -1,5 +1,5 @@
 :root {
-  --header-hight: 60px;
+  --header-hight: 70px;
 }
 
 /*leftheader+rightheader*/
@@ -54,6 +54,3 @@
   font-weight: bold; /* optional */
 }
 
-@media (min-width: 783) {
-  
-}
