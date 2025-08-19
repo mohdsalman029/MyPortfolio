@@ -32,13 +32,13 @@
 /*right items in header*/
 
 .rightItemsContainer {
+  border: 1px solid green;
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
   margin: 10px;
-  padding-right: 90px;
 }
 
 .rightItems:hover {
@@ -52,4 +52,8 @@
 .active {
   color: #00bcd4; /* highlight color */
   font-weight: bold; /* optional */
+}
+
+@media (min-width: 783) {
+  
 }

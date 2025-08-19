@@ -10,18 +10,17 @@ export const Header = () => {
     "Skills",
     "Projects",
     "Contact",
-    "Resume",
+    "Education",
   ];
   return (
     <>
       <div className={style.header}>
         <LeftHeader />
         <div className={style.rightItemsContainer}>
-        
           {headerName.map((headerName, index) => (
             <RightHeader value={headerName} key={index} />
-          ))}</div>
-        
+          ))}
+        </div>
       </div>
     </>
   );

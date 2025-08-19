@@ -9,11 +9,11 @@ export const RightHeader = ({ value }) => {
     Skills: "/skills",
     Projects: "/projects",
     Contact: "/contact",
-    Resume: "/resume",
+    Education: "/Education",
   };
 
   return (
-    <NavLink 
+    <NavLink
       to={routes[value]}
       className={({ isActive }) =>
         `${style.rightItems} ${isActive ? style.active : ""}`
