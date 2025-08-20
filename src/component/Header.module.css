@@ -1,5 +1,5 @@
 :root {
-  --header-hight: 70px;
+  --header-hight: 65px;
 }
 
 /*leftheader+rightheader*/
@@ -32,13 +32,13 @@
 /*right items in header*/
 
 .rightItemsContainer {
-  border: 1px solid green;
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
   margin: 10px;
+  padding-right: 50px;
 }
 
 .rightItems:hover {
@@ -53,4 +53,3 @@
   color: #00bcd4; /* highlight color */
   font-weight: bold; /* optional */
 }
-
