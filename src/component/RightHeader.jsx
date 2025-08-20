@@ -13,7 +13,7 @@ export const RightHeader = ({ value }) => {
   };
 
   return (
-    <NavLink
+    <NavLink 
       to={routes[value]}
       className={({ isActive }) =>
         `${style.rightItems} ${isActive ? style.active : ""}`
