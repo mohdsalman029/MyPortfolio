@@ -1,3 +1,23 @@
+.educationPageContainer {
+  height: calc(100vh - var(--header-hight));
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.education {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.educationContainer {
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+}
 .container {
   border: 1px solid black;
   height: 130px;
@@ -17,28 +37,4 @@
 .passOut {
   font-size: 0.8rem;
   color: grey;
-}
-
-.educationPageContainer {
-  border: 1px;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 10px;
-}
-
-.educationContainer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-}
-
-.education {
-  padding-left: 300px;
-
-  font-size: 1.4rem;
-  font-weight: 550;
 }

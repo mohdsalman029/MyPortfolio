@@ -7,7 +7,7 @@ export const Education = () => {
   return (
     <>
       <div className={style.educationPageContainer}>
-        {/* <div className={style.education}>Education</div> */}
+        <div className={style.education}>Education</div>
         <div className={style.educationContainer}>
           <EducationContent
             course="BCA School of Computer Science"
@@ -24,7 +24,7 @@ export const Education = () => {
             collage="Govt Boys Sr. Sec. School, New Delhi India"
             passOut="April : 2017"
           />
-        </div>{" "}
+        </div>
       </div>
     </>
   );
