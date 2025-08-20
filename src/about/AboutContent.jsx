@@ -25,8 +25,8 @@ export const AboutContent = () => {
             practices.
           </div>
           <div className={style.content}>
-            <ul>
-              <p className={style.responsiblity}>What I bring</p>
+            <p className={style.responsiblity}>What I bring</p>
+            <ul className={style.bringList}>
               <li>Solid foundation in HTML, CSS, JavaScript</li>
               <li>Hands-on experience with the MERN stack</li>
               <li>

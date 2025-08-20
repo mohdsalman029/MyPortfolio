@@ -52,3 +52,8 @@
 .nameColor {
   color: #4285f4;
 }
+
+.bringList {
+  margin: 0;
+  padding-left: 30px;
+}
