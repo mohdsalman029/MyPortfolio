@@ -59,3 +59,20 @@
   color: #00bcd4;
   margin: 0 10px; /* optional spacing */
 }
+
+@media (max-width: 1200px) {
+  .header {
+    display: flex;
+    flex-direction: raw;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .rightItemsContainer {
+    border: 1px solid red;
+    display: flex;
+
+
+    
+  }
+}
