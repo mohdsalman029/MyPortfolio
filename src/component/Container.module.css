@@ -14,9 +14,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .name {
@@ -34,7 +31,6 @@
 .role {
   font-size: 2rem;
   font-weight: 550;
-  word-spacing: 5%;
 }
 
 .explore {
@@ -50,4 +46,36 @@
   color: white;
 }
 
+@media (max-width: 784px) {
+  .container {
+    height: calc(100vh - var(--header-hight));
+    width: 100%;
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+  }
+  .name {
+    font-size: 2rem;
+    color: #4285f4;
+    font-weight: 600;
+  }
 
+  .collage {
+    font-size: 1.1rem;
+    display: flex;
+  }
+  .course {
+    font-weight: 600;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
