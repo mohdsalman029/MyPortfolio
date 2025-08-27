@@ -57,3 +57,27 @@
   margin: 0;
   padding-left: 30px;
 }
+
+@media (max-width: 1363px) {
+  .aboutContainer {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutPage {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .imageContainer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

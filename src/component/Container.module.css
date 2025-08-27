@@ -50,7 +50,6 @@
   .container {
     height: calc(100vh - var(--header-hight));
     width: 100%;
-    border: 5px solid green;
     display: flex;
     flex-direction: column;
     justify-content: center;
