@@ -6,7 +6,7 @@ export const SkillContent = ({ heading, content }) => {
     <>
       <div className={style.container}>
         <div className={style.heading}>{heading}</div>
-        <div className={content}>{content}</div>
+        <div className={style.content}>{content}</div>
       </div>
     </>
   );
