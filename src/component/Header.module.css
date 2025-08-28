@@ -7,6 +7,11 @@
   /* border: 1px solid rebeccapurple; */
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0; /* stick to the top */
+  z-index: 1000; /* stay above other content */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background: transparent;
 }
 
 .photo {
