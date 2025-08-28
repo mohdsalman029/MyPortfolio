@@ -7,11 +7,14 @@ export const Footer = () => {
     <>
       <div className={style.footerContainer}>
         <div className={style.roleContainer}>
-          <p className={style.role}>Full Stack Developer </p> |Open to work
+          <p className={style.role}>Full Stack Developer </p> |
+          <p>Open to work</p>
         </div>
         <div className={style.contentContainer}>
-          <p>Let's work together</p>
-          <p>Available for freelance & full-time opportunities</p>
+          <p>
+            Let's work together Available for freelance & full-time
+            opportunities
+          </p>
         </div>
         <div className={style.icons}>
           <IconImported />
