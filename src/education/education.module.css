@@ -1,5 +1,5 @@
 .educationPageContainer {
-  height: calc(100vh - var(--header-hight));
+  /* height: calc(100vh - var(--header-hight)); */
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@
   align-items: center;
   font-size: 1.4rem;
   font-weight: 600;
+  padding-bottom: 30px;
 }
 .educationContainer {
   height: 80%;
@@ -37,4 +38,21 @@
 .passOut {
   font-size: 0.8rem;
   color: grey;
+}
+
+@media (max-width: 1000px) {
+  .educationPageContainer {
+    height: calc(100vh - var(--header-hight));
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .educationContainer {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
