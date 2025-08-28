@@ -1,0 +1,13 @@
+/* Each section should take full width and adapt height */
+.exploreContainer {
+  width: 100%;
+  min-height: 100vh; /* full screen per section */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+/* 🔽 Responsive for <= 1370px */
+@media (max-width: 1370px) {
+}

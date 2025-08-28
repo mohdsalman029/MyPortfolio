@@ -7,6 +7,7 @@ import { Skill } from "./skills/Skill";
 import { Contact } from "./contact/Contact";
 import { Education } from "./education/Education";
 import { Layout } from "./Layout";
+import { Explore } from "../src/component/Explore";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="skills" element={<Skill />} />
             <Route path="contact" element={<Contact />} />
             <Route path="education" element={<Education />} />
+            <Route path="/explore" element={<Explore />} />
           </Route>
         </Routes>
       </BrowserRouter>

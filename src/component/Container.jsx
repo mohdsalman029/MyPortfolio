@@ -1,11 +1,15 @@
 import React from "react";
 import style from "./Container.module.css";
 import { Image } from "./Image";
+import { useNavigate } from "react-router-dom";
 
 export const Container = () => {
-  const handleclick = () => {
-    console.log("I'm explore button");
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/explore"); // 👉 go to explore page
   };
+
   return (
     <div className={style.container}>
       <div>
@@ -19,7 +23,7 @@ export const Container = () => {
         </p>
         <p className={style.role}>Student</p>
       </div>
-      <div onClick={handleclick}>
+      <div onClick={handleClick}>
         <p className={style.explore}>Explore</p>
       </div>
     </div>
