@@ -7,7 +7,7 @@ export const Footer = () => {
     <>
       <div className={style.footerContainer}>
         <div className={style.roleContainer}>
-          <p className={style.role}>Full Stack Developer </p> |
+          <p className={style.role}>Full Stack Developer </p>
           <p>Open to work</p>
         </div>
         <div className={style.contentContainer}>

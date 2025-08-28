@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Header.module.css";
-import image from "../assets/salman.png";
+import image from "../assets/salman1.png";
 
 export const LeftHeader = () => {
   return (
