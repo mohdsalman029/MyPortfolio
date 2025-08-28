@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./Contact.module.css";
-import { Header } from "../component/Header";
 import { Slogan } from "./Slogan";
 import { InputField } from "./InputField";
 import { Button } from "./Button";
