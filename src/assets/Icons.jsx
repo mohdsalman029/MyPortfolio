@@ -1,4 +1,4 @@
-import style from "../extras/icons.module.css";
+import style from "../extras/Icons.module.css";
 import salmanResume from "../assets/salmanResume.pdf";
 const handleGithubClick = () => {
   console.log("Github link open");
